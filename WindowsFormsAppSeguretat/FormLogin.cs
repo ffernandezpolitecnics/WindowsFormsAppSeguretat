@@ -51,10 +51,7 @@ namespace WindowsFormsAppSeguretat
                     cerrar = false;
                     this.Close();
                 }
-
             }
-
-
         }
 
         private void buttonCancelar_Click(object sender, EventArgs e)
