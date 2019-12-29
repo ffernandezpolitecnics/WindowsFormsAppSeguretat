@@ -48,6 +48,10 @@ namespace WindowsFormsAppSeguretat
                 textBoxEmail.Text = eMail;
                 textBoxNom.Text = nom;
                 comboBoxRol.SelectedValue = idRol;
+                buttonGuardar.Location = new Point(buttonGuardar.Location.X, buttonGuardar.Location.Y-50);
+                buttonCancelar.Location = new Point(buttonCancelar.Location.X, buttonCancelar.Location.Y - 50);
+
+                this.Size = new Size(this.Size.Width, this.Size.Height - 50);
             }
             else
             {

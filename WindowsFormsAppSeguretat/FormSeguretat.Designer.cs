@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormSeguretat));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.seguretatToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.rolsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -95,6 +96,7 @@
             this.ClientSize = new System.Drawing.Size(689, 411);
             this.Controls.Add(this.menuStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "FormSeguretat";
             this.Text = "Seguretat";

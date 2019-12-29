@@ -1,4 +1,5 @@
-﻿using OC.Core.Crypto;
+﻿using Elskom.Generic.Libs;
+using OC.Core.Crypto;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -13,6 +14,8 @@ namespace WindowsFormsAppSeguretat
 {
     public partial class FormLogin : Form
     {
+        bool cerrar = true;
+
         public FormLogin()
         {
             InitializeComponent();
@@ -45,6 +48,7 @@ namespace WindowsFormsAppSeguretat
                 }
                 else
                 {
+                    cerrar = false;
                     this.Close();
                 }
 
@@ -56,6 +60,14 @@ namespace WindowsFormsAppSeguretat
         private void buttonCancelar_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void FormLogin_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (cerrar)
+            {
+                Application.Exit();
+            }
         }
     }
 }

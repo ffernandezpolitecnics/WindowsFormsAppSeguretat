@@ -88,6 +88,8 @@
             this.Controls.Add(this.textBoxNom);
             this.Controls.Add(this.labelNom);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "FormRol";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Rol";

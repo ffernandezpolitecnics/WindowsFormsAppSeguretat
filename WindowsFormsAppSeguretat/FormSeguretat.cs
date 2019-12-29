@@ -37,9 +37,9 @@ namespace WindowsFormsAppSeguretat
 
         private void FormSeguretat_Load(object sender, EventArgs e)
         {
-            FormLogin f = new FormLogin();
+            //FormLogin f = new FormLogin();
 
-            f.ShowDialog();
+            //f.ShowDialog();
         }
     }
 }

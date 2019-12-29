@@ -56,16 +56,16 @@
             // 
             // textBoxEmail
             // 
-            this.textBoxEmail.Location = new System.Drawing.Point(107, 17);
+            this.textBoxEmail.Location = new System.Drawing.Point(141, 13);
             this.textBoxEmail.Name = "textBoxEmail";
-            this.textBoxEmail.Size = new System.Drawing.Size(498, 20);
+            this.textBoxEmail.Size = new System.Drawing.Size(464, 20);
             this.textBoxEmail.TabIndex = 1;
             // 
             // textBoxNom
             // 
-            this.textBoxNom.Location = new System.Drawing.Point(107, 43);
+            this.textBoxNom.Location = new System.Drawing.Point(141, 39);
             this.textBoxNom.Name = "textBoxNom";
-            this.textBoxNom.Size = new System.Drawing.Size(498, 20);
+            this.textBoxNom.Size = new System.Drawing.Size(464, 20);
             this.textBoxNom.TabIndex = 3;
             // 
             // label2
@@ -93,17 +93,17 @@
             // comboBoxRol
             // 
             this.comboBoxRol.FormattingEnabled = true;
-            this.comboBoxRol.Location = new System.Drawing.Point(107, 70);
+            this.comboBoxRol.Location = new System.Drawing.Point(141, 66);
             this.comboBoxRol.Name = "comboBoxRol";
-            this.comboBoxRol.Size = new System.Drawing.Size(498, 21);
+            this.comboBoxRol.Size = new System.Drawing.Size(464, 21);
             this.comboBoxRol.TabIndex = 5;
             // 
             // textBoxContrasenya
             // 
-            this.textBoxContrasenya.Location = new System.Drawing.Point(107, 97);
+            this.textBoxContrasenya.Location = new System.Drawing.Point(141, 93);
             this.textBoxContrasenya.Name = "textBoxContrasenya";
             this.textBoxContrasenya.PasswordChar = '*';
-            this.textBoxContrasenya.Size = new System.Drawing.Size(498, 20);
+            this.textBoxContrasenya.Size = new System.Drawing.Size(464, 20);
             this.textBoxContrasenya.TabIndex = 7;
             // 
             // labelContrasenya
@@ -117,10 +117,10 @@
             // 
             // textBoxConfContrasenya
             // 
-            this.textBoxConfContrasenya.Location = new System.Drawing.Point(107, 123);
+            this.textBoxConfContrasenya.Location = new System.Drawing.Point(141, 119);
             this.textBoxConfContrasenya.Name = "textBoxConfContrasenya";
             this.textBoxConfContrasenya.PasswordChar = '*';
-            this.textBoxConfContrasenya.Size = new System.Drawing.Size(498, 20);
+            this.textBoxConfContrasenya.Size = new System.Drawing.Size(464, 20);
             this.textBoxConfContrasenya.TabIndex = 9;
             // 
             // labelConfContrasenya
@@ -128,9 +128,9 @@
             this.labelConfContrasenya.AutoSize = true;
             this.labelConfContrasenya.Location = new System.Drawing.Point(22, 126);
             this.labelConfContrasenya.Name = "labelConfContrasenya";
-            this.labelConfContrasenya.Size = new System.Drawing.Size(66, 13);
+            this.labelConfContrasenya.Size = new System.Drawing.Size(113, 13);
             this.labelConfContrasenya.TabIndex = 8;
-            this.labelConfContrasenya.Text = "Contrasenya";
+            this.labelConfContrasenya.Text = "Confirmar Contrasenya";
             // 
             // buttonCancelar
             // 
@@ -157,7 +157,7 @@
             this.AcceptButton = this.buttonGuardar;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(634, 198);
+            this.ClientSize = new System.Drawing.Size(617, 198);
             this.Controls.Add(this.buttonCancelar);
             this.Controls.Add(this.buttonGuardar);
             this.Controls.Add(this.textBoxConfContrasenya);
@@ -171,6 +171,8 @@
             this.Controls.Add(this.textBoxEmail);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "FormUsuari";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Usuari";

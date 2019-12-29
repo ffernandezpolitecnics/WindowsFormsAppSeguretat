@@ -109,9 +109,12 @@
             this.Controls.Add(this.textBoxEmail);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "FormLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormLogin_FormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.errorProviderLogin)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
